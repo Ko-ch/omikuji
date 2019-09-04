@@ -1,4 +1,3 @@
-
 def unsei(i):
     if i == 0:
         return "大吉"
@@ -8,4 +7,5 @@ def unsei(i):
         return "凶"
 
 import random
-print('今日の運勢は... '+unsei(random.randint(0,2)))
+
+print('今日の運勢は... ' + unsei(random.randint(0, 2)))
