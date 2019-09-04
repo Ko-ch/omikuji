@@ -8,5 +8,4 @@ def unsei(i):
         return "凶"
 
 import random
-
 print('今日の運勢は... '+unsei(random.randint(0,2)))
