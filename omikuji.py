@@ -23,6 +23,7 @@ def unsei(i):
         return "末凶"
     if i == 11:
         return "大凶"
+    return "くじの範囲を超えた...!!!"
 
 import random
 
