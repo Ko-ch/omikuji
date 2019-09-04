@@ -26,5 +26,4 @@ def unsei(i):
     return "くじの範囲を超えた...!!!"
 
 import random
-
 print('今日の運勢は... ' + unsei(random.randint(0, 11)))
