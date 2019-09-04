@@ -26,5 +26,4 @@ def unsei(i):
 
 import random
 
-for i in 100:
-    print('今日の運勢は... ' + unsei(random.randint(0, 11)))
+print('今日の運勢は... ' + unsei(random.randint(0, 11)))
